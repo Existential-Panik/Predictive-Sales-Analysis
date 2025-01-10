@@ -59,16 +59,36 @@ The dataset used in this project is the **Big Mart Sales Dataset** from Kaggle. 
 
 ---
 
-## How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/<your-username>/Predictive-Sales-Analysis.git
-   ```  
-2. Install the required dependencies:  
-   ```bash
-   pip install -r requirements.txt
-   ```  
-3. Open the Jupyter Notebook and run the cells sequentially.
+## Code Execution Instructions
+This project was developed using Jupyter Notebooks which executes all the code locally, meaning all prerequisites must also be fulfilled before running this project successfully. All the libraries used to realize this project also need to be installed on the machine locally to run it.
+
+### Libraries Used:
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `plotly_express`
+- `scikit-learn`
+
+### Important Prerequisites:
+1. **Python 3.8 or higher**: Install it from [Python.org](https://www.python.org/downloads/windows/).
+2. **Jupyter Notebooks or Anaconda Navigator**:
+   - To install Jupyter Notebooks after installing Python, open Command Prompt or PowerShell with admin privileges and type:
+     ```
+     pip install jupyter
+     ```
+   - Alternatively, download [Anaconda Navigator](https://www.anaconda.com/products/distribution), which includes Jupyter Notebooks by default.
+3. **Additional Libraries**:
+   - Use the `check_libraries.bat` file provided in the project zip file to verify and install all dependencies. Simply run the file, and it will ensure all necessary libraries are installed.
+
+### Steps to Run the Project:
+1. Locate the dataset (`.csv` file) and the project (`.ipynb` file) in the provided zip file.
+2. Copy both files and paste them into the following path on your system:
+   ```
+   C:\Users\<your-username>\
+   ```
+3. Open Jupyter Notebooks and navigate to the project file.
+4. Run all the cells sequentially to see the output.
 
 ---
 
